@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+   padding:0 15px;
+   margin-right: auto;
+   margin-left: auto;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .navbar{
+ margin: 0;
+ padding: 0;
+list-style: none;
+display: flex;
+}
+header .navbar a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 10px;
+    font-size: 18px;
+}
+.hero-section img{
+    width: 100%;
+}
+.hero-section{
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+.hero-section .hero-content{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    max-width: 500px;
+    background-color:white ;
+    padding: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-section .hero-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+    color: rgba(204, 0, 0, 0.712);
+}
+.hero-section .hero-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 22px;
+    color: rgb(1, 39, 36);
+}
+.gallery-section .gallery-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.gallery-section .gallery-list li{
+    flex: 1 1 200px;
+
+}
+.gallery-section .gallery-list li img{
+    width: 100%;
+}
+.gallery-section h2{
+    text-align: center;
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(56, 165, 42);
+}
